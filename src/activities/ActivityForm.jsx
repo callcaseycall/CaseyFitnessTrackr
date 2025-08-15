@@ -15,6 +15,7 @@ export default function ActivityForm({ token }) {
     return (
       <>
         {error ? <h3>{error}</h3> : <></>}
+        <h2>Add A New Activity</h2>
         <form action={addActivity}>
           <label>
             Activity Name
